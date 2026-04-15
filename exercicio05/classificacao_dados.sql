@@ -1,5 +1,5 @@
 
--- Mostrar nome do cliente e valor do pedido, ordenando do maior para o menor.î
+-- Mostrar nome do cliente e valor do pedido, ordenando do maior para o menor.‚Äù
 
 SELECT 
 	cliente.nome AS Nome_Cliente,
@@ -9,4 +9,4 @@ SELECT
 	ON pedidos.cliente_id = cliente.id
 	ORDER BY pedidos.valor DESC; 
 
--- Resposta: Jo„o 300, Ana 100 e Ana 50.
+-- Resposta: Jo√£o 300, Ana 100 e Ana 50.
