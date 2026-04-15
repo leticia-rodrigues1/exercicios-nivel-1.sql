@@ -10,4 +10,4 @@ JOIN CLIENTE
 GROUP BY CLIENTE.Nome
 ORDER BY QUANTIDADE_PEDIDOS DESC;
 
---Ana pediu 2 e o Jo„o pediu 1
+--Ana pediu 2 e o Jo√£o pediu 1
