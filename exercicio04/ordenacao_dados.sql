@@ -1,6 +1,6 @@
 
 -- Nome do cliente ?
--- Valor do pedido ? somente pedidos · cima de 100 ( > 100)
+-- Valor do pedido ? somente pedidos √° cima de 100 ( > 100)
 
 -- Consultando as tabelas
 SELECT *
@@ -9,7 +9,7 @@ FROM CLIENTE
 SELECT *
 FROM PEDIDOS
 
--- Resolvendo o exercÌcio
+-- Resolvendo o exerc√≠cio
 SELECT 
 	cliente.nome AS Nome_Cliente,
 	pedidos.valor AS Valores
@@ -18,4 +18,4 @@ SELECT
 	ON pedidos.cliente_id = cliente.id 
 	WHERE pedidos.valor  >100;
 
-	-- Cliente que fez o pedido · cima de 100 foi o Jo„o com 300.
+	-- Cliente que fez o pedido √° cima de 100 foi o Jo√£o com 300.
