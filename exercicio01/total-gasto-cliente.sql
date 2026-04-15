@@ -3,9 +3,9 @@ CREATE DATABASE MERCADO
 
 /* Criando as tabelas 
 ID nome da coluna
-INT número inteiro
+INT nÃºmero inteiro
 NOME nome da coluna 
-VARCHAR até 50 caracteres 
+VARCHAR atÃ© 50 caracteres 
 */
 -- Criando a tabela de fornecedores 
 CREATE TABLE fornecedores(
@@ -30,7 +30,7 @@ CREATE TABLE clientes(
 
 /* Inserindo os dados na tabela FORNECEDORES
 INSERT INTO vou inserir dados na tabela 
-VALUES são os valores que eu quero colocar 
+VALUES sÃ£o os valores que eu quero colocar 
 */
 INSERT INTO fornecedores VALUES 
 		(1, 'Bahamas'),
