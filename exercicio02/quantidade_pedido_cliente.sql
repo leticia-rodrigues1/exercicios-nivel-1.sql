@@ -1,6 +1,6 @@
 
 -- Feito por mim sozinha 
--- ExercÌcio descobrir quanto cada cliente gastou?
+-- Exerc√≠cio descobrir quanto cada cliente gastou?
 
 -- Criei DATABASE 
 CREATE DATABASE CLIENTES
@@ -20,7 +20,7 @@ FROM CLIENTE
 INSERT INTO CLIENTE (Nome)
 		VALUES 
 		('Ana'),
-		('Jo„o')
+		('Jo√£o')
 
 --Criando a tabela PEDIDOS
 CREATE TABLE PEDIDOS (
@@ -40,7 +40,7 @@ VALUES
 (1,50),
 (2,300)
 
--- JOIN: FAZENDO A JUN«√O DAS TABELAS 
+-- JOIN: FAZENDO A JUN√á√ÉO DAS TABELAS 
 SELECT 
 		cliente.nome		 AS Nome_Cliente,
 		SUM(pedidos.valor)  AS Total_Gasto
@@ -51,11 +51,11 @@ SELECT
 		ORDER BY Total_Gasto DESC;
 
 
--- Quem gastou mais foi Jo„o com 300,00 e em segundo lugar Ana 150,00
+-- Quem gastou mais foi Jo√£o com 300,00 e em segundo lugar Ana 150,00
 
 
 
--- Uma vers„o mais profissional corrigida 
+-- Uma vers√£o mais profissional corrigida 
 CREATE DATABASE CLIENTES;
 GO
 
@@ -76,7 +76,7 @@ CREATE TABLE PEDIDOS (
 INSERT INTO CLIENTE (Nome)
 VALUES
 ('Ana'),
-('Jo„o');
+('Jo√£o');
 
 INSERT INTO PEDIDOS (Cliente_id, VALOR)
 VALUES
